@@ -4,12 +4,13 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/lwjgl-2.8.2/jar/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="demora/lib/lwjgl-2.8.2/native/windows"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="demora/lib/lwjgl-2.8.2/native/macosx"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/lwjgl-2.8.2/jar/lwjgl_util.jar"/>
 	<classpathentry kind="lib" path="lib/lwjgl-2.8.2/jar/jinput.jar"/>
 	<classpathentry kind="lib" path="lib/lwjgl-2.8.2/jar/lzma.jar"/>
 	<classpathentry kind="lib" path="lib/slick.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-2.8.2/jar/AppleJavaExtensions.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
