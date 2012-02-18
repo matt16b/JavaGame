@@ -5,6 +5,9 @@ import org.newdawn.slick.geom.Rectangle;
 
 public class Weapon extends Item {
 
+	double weaponX, weaponY;
+	int wID;
+	
 	public Weapon(int nID) {
 		super(nID);
 	}
@@ -78,7 +81,8 @@ public class Weapon extends Item {
 
 	@Override
 	public void init(int nx, int ny, boolean tilewise) {
-		// TODO Auto-generated method stub
+		weaponX = nx;
+		weaponY = ny;
 		
 	}
 
@@ -116,6 +120,16 @@ public class Weapon extends Item {
 	public float getImgOffsetY() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	
+	public int collect(int x, int y) {
+		if(weaponX == x && weaponY == y){
+			return Weapon.super.getID();
+		}
+		else{
+			return -1;
+		}
 	}
 
 }

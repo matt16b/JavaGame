@@ -29,4 +29,6 @@ public interface Entity {
 	public float getImgOffsetY();
 
 	void init(int nx, int ny, boolean tilewise);
+
+	public int collect(int x, int y);
 }

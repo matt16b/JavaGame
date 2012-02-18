@@ -10,5 +10,7 @@ public abstract class Item implements Entity{
 	public int getID() {return ID;}
 	
 	public abstract void destroy();
+	
+	public abstract int collect(int x, int y); 
 
 }
